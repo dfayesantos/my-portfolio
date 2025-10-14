@@ -1,0 +1,37 @@
+[
+  {
+    "date": "Oct 2022 - Present",
+    "name": "AT&T",
+    "action": "Senior Software Engineer",
+    "text": "● Developed full stack features on Java and Angular web app, allowing for large scale implementation of the AT&T Fiber Network infrastructure",
+    "icon": { "type": "dot", "color": "emerald-500" }
+  },
+  {
+    "date": "Apr 7, 2024",
+    "name": "John Mirkovic",
+    "action": "commented the request",
+    "text": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+    "icon": { "type": "comment", "colorPrimary": "slate-300", "colorSecondary": "slate-500" }
+  },
+  {
+    "date": "Apr 8, 2024",
+    "name": "Vlad Patterson",
+    "action": "commented the request",
+    "text": "Letraset sheets containing passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum.",
+    "icon": { "type": "comment", "colorPrimary": "slate-300", "colorSecondary": "slate-500" }
+  },
+  {
+    "date": "Apr 8, 2024",
+    "name": "Mila Capentino",
+    "action": "commented the request",
+    "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "icon": { "type": "comment", "colorPrimary": "slate-300", "colorSecondary": "slate-500" }
+  },
+  {
+    "date": "Apr 9, 2024",
+    "name": "Mark Mikrol",
+    "action": "closed the request",
+    "text": "If you are going to use a passage of Lorem Ipsum!",
+    "icon": { "type": "dot", "color": "red-500" }
+  }
+]
