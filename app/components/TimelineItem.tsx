@@ -1,7 +1,24 @@
 import React from 'react';
 
-// Accept any shape from JSON to avoid strict TS mismatches when importing raw JSON
-export default function TimelineItem({ item }: { item: any }) {
+// Explicit types for the timeline item and icon. Keep fields optional to match JSON flexibility.
+type Icon = {
+  type?: 'dot' | 'comment' | string;
+  color?: string;
+  colorPrimary?: string;
+  colorSecondary?: string;
+  // allow other fields without using `any`
+  [key: string]: unknown;
+};
+
+export type TimelineItemType = {
+  date: string;
+  name: string;
+  action: string;
+  text: string;
+  icon?: Icon;
+};
+
+export default function TimelineItem({ item }: { item: TimelineItemType }) {
   return (
     <div className="relative">
       <div className="md:flex items-center md:space-x-4 mb-3">
