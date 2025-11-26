@@ -12,9 +12,9 @@ type Icon = {
 
 export type TimelineItemType = {
   date: string;
-  name: string;
-  action: string;
-  text: string;
+  company: string;
+  role: string;
+  text: string | string[];
   icon?: Icon;
 };
 
@@ -37,13 +37,23 @@ export default function TimelineItem({ item }: { item: TimelineItemType }) {
             )}
           </div>
           {/* Date */}
-          <time className="font-caveat font-medium text-xl text-indigo-500 md:w-28">{item.date}</time>
+          <time className="font-caveat font-medium text-xl text-[#4C6AC4] md:w-28">{item.date}</time>
         </div>
         {/* Title */}
-        <div className="text-slate-500 ml-14"><span className="text-slate-900 font-bold">{item.name}</span> {item.action}</div>
+        <div className="text-slate-500 ml-14"><span className="text-slate-900 font-bold">{item.company}</span> {item.role}</div>
       </div>
       {/* Card */}
-      <div className="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44">{item.text}</div>
+      <div className="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44">
+            {Array.isArray(item.text) ? (
+              <ul className="list-disc pl-5 space-y-1 text-slate-600">
+                {item.text.map((line, i) => (
+                  <li key={i}>{line}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>{item.text}</p>
+            )}
+      </div>
     </div>
   );
 }

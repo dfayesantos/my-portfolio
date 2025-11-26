@@ -1,37 +1,43 @@
 [
   {
-    "date": "Oct 2022 - Present",
-    "name": "AT&T",
-    "action": "Senior Software Engineer",
-    "text": "● Developed full stack features on Java and Angular web app, allowing for large scale implementation of the AT&T Fiber Network infrastructure",
+    "date": "OCT 2022 - JULY 2025",
+    "company": "AT&T",
+    "role": "Senior Software Engineer",
+    "text": [
+      "Developed full stack features on Java and Angular web app, allowing for large scale implementation of the AT&T Fiber Network infrastructure",
+      "Implemented NgRx within frontend for improved data storage, optimized service calling, and refactored component architecture to decrease page load times by 10-70%",
+      "Introduced Jasmine/Karma unit tests for new and existing code, increasing code coverage by 40%",
+      "Built new and improved existing API calls within microservices by using PostgreSQL and Spring Data JPA",
+      "Detected and implemented fixes for frontend secret key vulnerabilities, improving overall security in frontend framework",
+      "Automated sanity testing using the Robot framework, leading to 10% decreased defects in production"
+    ],
     "icon": { "type": "dot", "color": "emerald-500" }
   },
   {
-    "date": "Apr 7, 2024",
-    "name": "John Mirkovic",
-    "action": "commented the request",
-    "text": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+    "date": "JAN 2021 - OCT 2022",
+    "company": "AT&T",
+    "role": "Associate Software Engineer",
+    "text": ["Executed design and functional stories based on CRD and Figma templates using Agile and React for Consumer e-Commerce team. Fixed style defects and added reporting to components for customer analysis on att.com site",
+      "Collaborated with clients to automate and migrate their data to cloud native technology through the Palantir platform using data pipelining and cleaning, PySpark, Spark SQL, and Typescript for the Network Engineering Operations team. This consolidated 12 apps into 2 and therefore increased workload efficiency",
+      "Delegated biweekly standups for our program director, and hosted informational diversity sessions locally and nationally as part of the DE&I committee"
+    ],
     "icon": { "type": "comment", "colorPrimary": "slate-300", "colorSecondary": "slate-500" }
   },
   {
-    "date": "Apr 8, 2024",
-    "name": "Vlad Patterson",
-    "action": "commented the request",
-    "text": "Letraset sheets containing passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum.",
+    "date": "JAN 2020 - DEC 2020",
+    "company": "Purdue University",
+    "role": "Undergraduate Teaching Assistant",
+    "text": "Graded student assignments, assisted as a lab aid, and supervised office hours for ~100 students in degree required Java OOP and CS Tools courses",
     "icon": { "type": "comment", "colorPrimary": "slate-300", "colorSecondary": "slate-500" }
   },
   {
-    "date": "Apr 8, 2024",
-    "name": "Mila Capentino",
-    "action": "commented the request",
-    "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "date": "MAY 2019 - AUG 2019",
+    "company": "L3Harris Technologies",
+    "role": "Software Engineer Intern",
+    "text":  ["Developed a new Update Account Information page using Java and Java Server Pages and solved server crashing bugs to improve application flow and usability",
+      "Converted Bash scripts to run on Linux to with team’s system change",
+      "Participated in network and computer engineering classes specific to the company’s networking devices dealing with their National Control Center’s air traffic management"
+    ],
     "icon": { "type": "comment", "colorPrimary": "slate-300", "colorSecondary": "slate-500" }
-  },
-  {
-    "date": "Apr 9, 2024",
-    "name": "Mark Mikrol",
-    "action": "closed the request",
-    "text": "If you are going to use a passage of Lorem Ipsum!",
-    "icon": { "type": "dot", "color": "red-500" }
   }
 ]

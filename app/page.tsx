@@ -7,13 +7,14 @@ import UnderConstruction from './components/UnderConstruction';
 
 
 export default function Home() {
-  const showUnderConstruction = true; // your truthy variable here
+  const showUnderConstruction = false;
   return (
     <>{showUnderConstruction ? <UnderConstruction /> : 
 
-        /** Start of Main Page Code */
+     /** Start of Main Page Code */
     <div className={styles.page}>
       <main className={styles.main}>
+        {/* Vercel Analytics Added */}
         <Analytics />
         <Image
           className={styles.logo}
@@ -25,16 +26,14 @@ export default function Home() {
         />
         <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[8.75rem] md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
           {Array.isArray(timeline) && timeline.map((item, idx) => (
-            <TimelineItem key={idx} item={item} />
+            <TimelineItem key={idx} item={item as any} />
           ))}
-
         </div>
 
       </main>
      
     </div>
-}
-    </>
-    
+    }
+    </> 
   );
 }
