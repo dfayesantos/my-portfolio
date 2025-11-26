@@ -7,7 +7,7 @@ type Icon = {
   colorPrimary?: string;
   colorSecondary?: string;
   // allow other fields without using `any`
-  [key: string]: unknown;
+  [key: string]: string | undefined | unknown;
 };
 
 export type TimelineItemType = {
