@@ -48,6 +48,11 @@
   margin-bottom: 8px;
 }
 
+/* Ensure nav lists inside the main area have the same spacing as other lists */
+.main nav li {
+  margin-bottom: 8px;
+}
+
 .main code {
   font-family: inherit;
   background: var(--gray-alpha-100);

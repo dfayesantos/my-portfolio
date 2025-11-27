@@ -8,13 +8,15 @@ export default function Nav() {
       <div className="bg-[#F5F5EF]">
         <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center">
-            <Image src={logo} alt="Dianne Santos logo" width={180} height={48} />
+            <a href="#home" aria-label="Go to home">
+              <Image src={logo} alt="Dianne Santos Logo" width={180} height={48} />
+            </a>
           </div>
           <nav>
             <ul className="flex gap-6 items-center text-slate-700 h-10">
-              <li className="flex"><a href="#home" className="flex-1 flex items-center justify-center hover:text-slate-900">Home</a></li>
-              <li className="flex"><a href="#resume" className="flex-1 flex items-center justify-center hover:text-slate-900">Resume</a></li>
-              <li className="flex"><a href="#contact" className="flex-1 flex items-center justify-center hover:text-slate-900">Contact</a></li>
+              <li className="flex"><a href="#home" className="flex-1 flex items-center justify-center hover:text-slate-900">HOME</a></li>
+              <li className="flex"><a href="#resume" className="flex-1 flex items-center justify-center hover:text-slate-900">RESUME</a></li>
+              <li className="flex"><a href="#contact" className="flex-1 flex items-center justify-center hover:text-slate-900">CONTACT</a></li>
             </ul>
           </nav>
         </div>
