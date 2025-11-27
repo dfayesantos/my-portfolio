@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${figtreeSans.variable} ${figtreeSans.variable}`}>
+      <body className={`${figtreeSans.variable}`}>
         {children}
       </body>
     </html>
