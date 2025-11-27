@@ -9,7 +9,7 @@ export default function Home() {
         {/* Text column */}
         <div className="text-center md:text-left order-1 md:order-none">
           <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight text-slate-900">DIANNE<br/>SANTOS</h1>
-          <h2>Software Engineer &amp; Web Developer</h2>
+          <h2>Chicago Based Software Engineer</h2>
         </div>
         {/* Text column */}
         <div className="flex items-center justify-center order-2 md:order-none">
