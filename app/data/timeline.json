@@ -21,14 +21,14 @@
       "Collaborated with clients to automate and migrate their data to cloud native technology through the Palantir platform using data pipelining and cleaning, PySpark, Spark SQL, and Typescript for the Network Engineering Operations team. This consolidated 12 apps into 2 and therefore increased workload efficiency",
       "Delegated biweekly standups for our program director, and hosted informational diversity sessions locally and nationally as part of the DE&I committee"
     ],
-    "icon": { "type": "comment", "colorPrimary": "slate-300", "colorSecondary": "slate-500" }
+    "icon": { "type": "dot", "color": "emerald-500" }
   },
   {
     "date": "JAN 2020 - DEC 2020",
     "company": "Purdue University",
     "role": "Undergraduate Teaching Assistant",
     "text": "Graded student assignments, assisted as a lab aid, and supervised office hours for ~100 students in degree required Java OOP and CS Tools courses",
-    "icon": { "type": "comment", "colorPrimary": "slate-300", "colorSecondary": "slate-500" }
+    "icon": { "type": "dot", "color": "emerald-500" }
   },
   {
     "date": "MAY 2019 - AUG 2019",
@@ -38,6 +38,6 @@
       "Converted Bash scripts to run on Linux to with team’s system change",
       "Participated in network and computer engineering classes specific to the company’s networking devices dealing with their National Control Center’s air traffic management"
     ],
-    "icon": { "type": "comment", "colorPrimary": "slate-300", "colorSecondary": "slate-500" }
+    "icon": { "type": "dot", "color": "emerald-500" }
   }
 ]
