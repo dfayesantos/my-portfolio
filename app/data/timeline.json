@@ -35,7 +35,7 @@
     "company": "L3Harris Technologies",
     "role": "Software Engineer Intern",
     "text":  ["Developed a new Update Account Information page using Java and Java Server Pages and solved server crashing bugs to improve application flow and usability",
-      "Converted Bash scripts to run on Linux to with team’s system change",
+      "Converted Bash scripts to run on Linux as team underwent operating system change",
       "Participated in network and computer engineering classes specific to the company’s networking devices dealing with their National Control Center’s air traffic management"
     ],
     "icon": { "type": "dot", "color": "emerald-500" }
