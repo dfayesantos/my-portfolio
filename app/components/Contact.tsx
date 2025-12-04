@@ -39,6 +39,7 @@ export default function Contact() {
     }
   }
 
+  //Use https://resend.com/emails
   return (
     <section id="contact" className="mt-32 max-w-5xl mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
